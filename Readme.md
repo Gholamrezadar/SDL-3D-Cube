@@ -1,6 +1,6 @@
 # SDL2 3D Cube Demo
 
-This is a simple demo of a 3D cube using SDL2. Practice for understanding `MVP` matrices.
+This is a simple demo of a 3D Rotating cube using **SDL2** & **glm**. Practice for understanding `MVP` matrices.
 
 ![Screenshot](images/result.png)
 ![Screenshot](images/ortho.png)
