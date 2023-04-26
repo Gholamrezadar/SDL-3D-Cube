@@ -21,12 +21,12 @@ generateCube(float angle, bool isOrthographic)
     // Rotate model matrix
     model = glm::rotate(
         model,
-        glm::radians(angle), // angle in radians
+        glm::radians(angle), // angle in radians    
         glm::vec3(0.0f, 1.0f, 0.0f) // axis of rotation
     );
 
     glm::mat4 view = glm::lookAt(
-        glm::vec3(0.0f, 3.0f, 3.0f), // camera position
+        glm::vec3(0.0f, 1.0f, 3.0f), // camera position
         glm::vec3(0.0f, 0.0f, 0.0f), // target position
         glm::vec3(0.0f, 1.0f, 0.0f)  // up vector
     );

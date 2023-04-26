@@ -2,6 +2,10 @@
 
 This is a simple demo of a 3D cube using SDL2.
 
+<p align="center">
+    <img src="images/SDL_Cube_Demo.gif">
+</p>
+
 ![Screenshot](images/result.png)
 ![Screenshot](images/ortho.png)
 

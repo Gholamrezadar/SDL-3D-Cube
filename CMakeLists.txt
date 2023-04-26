@@ -14,12 +14,12 @@ include_directories(${GLM_INCLUDE_DIRS})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 # Add the executable
-add_executable(sdl_app ${SOURCES})
+add_executable(sdl_cube ${SOURCES})
 
 # Link against the SDL library
-target_link_libraries(sdl_app SDL2)
+target_link_libraries(sdl_cube SDL2)
 # target_link_libraries(sdl_app glm)
 
 # Set C++ standard to C++11
-set_property(TARGET sdl_app PROPERTY CXX_STANDARD 11)
+set_property(TARGET sdl_cube PROPERTY CXX_STANDARD 11)
 

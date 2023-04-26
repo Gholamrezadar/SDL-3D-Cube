@@ -7,24 +7,22 @@
 const int WINDOW_W = 640;
 const int WINDOW_H = 480;
 
-class Renderer
-{
-
+class Renderer {
 public:
-    Renderer(SDL_Window *window);
+  Renderer(SDL_Window *window);
 
-    void render();
-    void clear();
-    void delay(int time);
+  void render();
+  void clear();
+  void delay(int time);
 
-    void setBackgroundTransparent();
-    void color(int r, int g, int b, int a = SDL_ALPHA_OPAQUE);
+  void setBackgroundTransparent();
+  void color(int r, int g, int b, int a = SDL_ALPHA_OPAQUE);
 
-    void line(int x1, int y1, int x2, int y2);
-    void AAline(int x1, int y1, int x2, int y2);
-    void rectangle(int x, int y, int w, int h);
-    void drawCube(std::vector<glm::vec2> const &screenPoints);
+  void line(int x1, int y1, int x2, int y2);
+  void AAline(int x1, int y1, int x2, int y2);
+  void rectangle(int x, int y, int w, int h);
+  void drawCube(std::vector<glm::vec2> const &screenPoints);
 
 private:
-    SDL_Renderer *renderer;
+  SDL_Renderer *renderer;
 };
